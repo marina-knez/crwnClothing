@@ -1,4 +1,4 @@
-import { takeLatest, all, call, put, take } from 'redux-saga/effects';
+import { takeLatest, all, call, put } from 'redux-saga/effects';
 
 import USER_ACTION_TYPES from './user.types';
 
@@ -71,7 +71,7 @@ export function* signOut() {
     try {
         yield call(signOutUser);
         yield put(signOutSuccess());
-        
+
     } catch (error) {
         yield put(signOutFailed(error));
     }
