@@ -2,7 +2,7 @@ import { useState, useEffect, Fragment } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
-import { selectCategoriesIsLoading, selectCategoriesMap } from "../../store/categories/category.selector";
+import { selectCategoriesIsLoading, selectCategoriesMap } from "../../store/categories/category.selector.ts";
 
 import ProductCard from '../../comoponents/product-card/product-card.component';
 import Spinner from '../../comoponents/spinner/spinner.component';
