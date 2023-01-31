@@ -24,7 +24,7 @@ import {
   QueryDocumentSnapshot
 } from 'firebase/firestore';
 
-import { Category } from '../../store/categories/category.types.ts';
+import { Category } from '../../store/categories/category.types';
 
 const firebaseConfig = {
     apiKey: "AIzaSyCS1CgZOfT46SP-w-5mntNGvAXuwu2jwAI",

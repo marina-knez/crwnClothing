@@ -1,7 +1,7 @@
 import { User } from 'firebase/auth';
-import { USER_ACTION_TYPES } from './user.types.ts';
-import { createAction, withMatcher, Action, ActionWithPayload } from '../../utilities/reducer/reducer.utilities.ts';
-import { UserData, AdditionalInformation } from '../../utilities/firebase/firebase.utilities.ts';
+import { USER_ACTION_TYPES } from './user.types';
+import { createAction, withMatcher, Action, ActionWithPayload } from '../../utilities/reducer/reducer.utilities';
+import { UserData, AdditionalInformation } from '../../utilities/firebase/firebase.utilities';
 
 export type CheckUserSession = Action<USER_ACTION_TYPES.CHECK_USER_SESSION>;
 

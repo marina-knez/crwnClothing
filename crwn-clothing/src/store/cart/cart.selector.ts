@@ -1,6 +1,6 @@
 import { createSelector } from 'reselect';
 
-import { RootState } from '../store.ts';
+import { RootState } from '../store';
 
 import { CartState } from './cart.reducer';
 

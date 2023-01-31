@@ -1,6 +1,6 @@
-import { CategoryItem } from '../categories/category.types.ts';
-import { CART_ACTION_TYPES, CartItem } from './cart.types.ts';
-import { createAction, withMatcher, ActionWithPayload } from '../../utilities/reducer/reducer.utilities.ts';
+import { CategoryItem } from '../categories/category.types';
+import { CART_ACTION_TYPES, CartItem } from './cart.types';
+import { createAction, withMatcher, ActionWithPayload } from '../../utilities/reducer/reducer.utilities';
 
 const addCartItem = (cartItems: CartItem[], productToAdd: CategoryItem): CartItem[] => {
     const existingCartItem = cartItems.find(
